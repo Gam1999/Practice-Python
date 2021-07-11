@@ -1,0 +1,15 @@
+import math
+
+print("*" *30)
+print("*" *9 + "About Circle" + "*" *9)
+print("*" *30)
+radius = int(input("Input radius: "))
+print("Radius is {:.1f}".format(radius),)
+Circumference = float(input("Circumference is "))
+Area = math.pi * (radius * radius)
+print("Area is {:.2f}".format(Area))
+y = float(input("Enter y for finding x: "))
+print("y is {:.4f}".format(y))
+x = math.sqrt(((radius*radius) - (y*y)))
+print("x is -{:.4f}".format(x), "and {:.4f}".format(x))
+print("*" *30)
